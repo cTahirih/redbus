@@ -1,13 +1,16 @@
 import React from 'react';
 import Row from './Row';
-import Section2 from './Section2';
-import Section3 from './Section3';
+import SectionOne from './SectionOne';
+import SectionTwo from './SectionTwo';
+import SectionThree from './SectionThree';
+
 
 const Tab1 = () => (
   <div className="container">
     <Row>
-      <Section2/>
-      <Section3 />
+      <SectionOne />
+      <SectionTwo />
+      <SectionThree />
     </Row>
   </div>
 )
