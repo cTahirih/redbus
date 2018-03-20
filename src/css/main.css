@@ -79,6 +79,7 @@ a.nav-link {
 
 .font-size-large {
   font-size: 18px;
+}
 .arrow-size {
   height: 2rem !important;
   vertical-align: middle;
@@ -93,6 +94,18 @@ a.nav-link {
   color: var(--color1) !important;
   font-size: 20px;
   font-weight: 600 !important;
+}
+
+.detail-list {
+  padding-left: 0.5rem;;
+}
+
+.detail-list li {
+  list-style: none;
+}
+
+.number-icon {
+    height: 1.5rem !important;
 }
 
 @media (min-width: 576px) {
@@ -118,17 +131,6 @@ a.nav-link {
   a.nav-link {
     font-size: 20px;
   }
-}
-.detail-list {
-  padding-left: 0.5rem;;
-}
-
-.detail-list li {
-  list-style: none;
-}
-
-.number-icon {
-    height: 1.5rem !important;
 }
 
 @media (min-width: 992px) {

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const TextParagraph = () => (
-  <p>Texto en párrafo sin props</p>
+  <p className="d-block">Texto en párrafo sin props</p>
 )
 
 export default TextParagraph;
