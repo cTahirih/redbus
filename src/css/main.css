@@ -108,6 +108,10 @@ a.nav-link {
     height: 1.5rem !important;
 }
 
+.span-color {
+  color: var(--color2);
+}
+
 @media (min-width: 576px) {
   a.nav-link.active, 
   a.nav-link {

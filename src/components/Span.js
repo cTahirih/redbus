@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Span = () => (
-  <span className="font-size-small d-block">* Spannnnnnnnnnnnnn</span>
+  <p className="font-size-small"><span className="span-color">(*)</span>Spannnnnnnnnnnnnn</p>
 )
 
 export default Span;
