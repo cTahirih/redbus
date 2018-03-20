@@ -6,7 +6,7 @@ import SectionThree from './SectionThree';
 
 
 const Tab1 = () => (
-  <div className="container">
+  <div className="container mt-4 rounded">
     <Row>
       <SectionOne />
       <SectionTwo />
