@@ -79,10 +79,18 @@ a.nav-link {
 
 .font-size-large {
   font-size: 18px;
+.arrow-size {
+  height: 2rem !important;
+  vertical-align: middle;
+}
+
+.bank-logo-size {
+  height: 5rem !important;
+  border: 1px var(--color1) solid;
 }
 
 .colorp-main {
-  color: #e0ab04 !important;
+  color: var(--color1) !important;
   font-size: 20px;
   font-weight: 600 !important;
 }
@@ -109,5 +117,22 @@ a.nav-link {
   a.nav-link.active, 
   a.nav-link {
     font-size: 20px;
+  }
+}
+.detail-list {
+  padding-left: 0.5rem;;
+}
+
+.detail-list li {
+  list-style: none;
+}
+
+.number-icon {
+    height: 1.5rem !important;
+}
+
+@media (min-width: 992px) {
+  .bank-logo-size {
+    height: 4rem !important;
   }
 }

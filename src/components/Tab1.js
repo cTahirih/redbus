@@ -9,7 +9,11 @@ const Tab1 = () => (
   <div className="container mt-4 rounded">
     <Row>
       <SectionOne />
+    </Row>
+    <Row>
       <SectionTwo />
+    </Row>
+    <Row>
       <SectionThree />
     </Row>
   </div>
