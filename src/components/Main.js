@@ -4,8 +4,9 @@ import Row from './Row';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/main.css';
 
+
 const Main = () => (
-  <main className="container">
+  <main className="container font-roboto">
     <Row>
       <Nav />
     </Row>

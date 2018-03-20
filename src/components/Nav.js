@@ -9,7 +9,9 @@ const Nav = () => (
       <Tab label="Banca por internet">
         <Tab1 />
       </Tab>
-      <Tab label="Pago en efectivo">Tab 2 content</Tab>
+      <Tab label="Pago en efectivo">
+        <Tab1 />
+      </Tab>
     </Tabs>
   </div>
 )
