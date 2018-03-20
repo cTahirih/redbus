@@ -79,13 +79,18 @@ a.nav-link {
 .font-size-large {
   font-size: 18px;
 }
+
 .arrow-size {
   height: 2rem !important;
   vertical-align: middle;
 }
 
+.colum-slider {
+  width: 16%;
+}
+
 .bank-logo-size {
-  height: 5rem !important;
+  height: 4rem !important;
   border: 1px var(--color1) solid;
 }
 
@@ -138,6 +143,6 @@ a.nav-link {
 
 @media (min-width: 992px) {
   .bank-logo-size {
-    height: 4rem !important;
+    height: 3.5rem !important;
   }
 }
