@@ -1,10 +1,11 @@
 import React from 'react';
 import Row from './Row';
+import SectionOne from './SectionOne';
 
 const Tab1 = () => (
   <div className="container">
     <Row>
-      <p>llhjhbj</p>
+      <SectionOne />
     </Row>
   </div>
 )
