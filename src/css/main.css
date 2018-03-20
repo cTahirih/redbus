@@ -1,10 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 /*color distintivo de marca*/
-
 /* #e0ab04 */
 :root {
   --color1: #e0aa00; /*color distintivo de marca*/
   --color2: #ffd87f; /*kaki*/
   --color3: #f6f4f4;  /*withesmoke*/
+  --color4:#2b2b2b; /*darkslategray*/
+}
+
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.color-darkslategray {
+  color: var(--color4);
 }
 .nav-tabs {
   border-bottom: 1px solid var(--color1)!important;
@@ -17,12 +26,33 @@
 }
 
 a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
-  color: var(--color1);
   text-decoration: none;
 }
 
-.column {
-  width: 35%;
+a.nav-link:hover {
+  border: 1px solid var(--color2)!important;
+}
+
+a.nav-link.active, 
+a.nav-link {
+  font-size: 12.5px;
+  font-weight: 700;
+}
+
+.nav-link {
+  padding: 0.15rem 0.9rem;
+}
+
+a.nav-link {
+  color:#7e7c7b!important;
+}
+
+.columnleft {
+  width: 33%;
+}
+
+.columnright {
+  width: 43%;
 }
 
 .col-left {
@@ -35,10 +65,21 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .colmiddle {
-  width: 30%;
+  width: 24%;
   background-color: var(--color3);
 }
 
+.font-size-small {
+  font-size: 10px;
+}
+
+.font-size-medium {
+  font-size: 10.5px;
+}
+
+.font-size-large {
+  font-size: 18px;
+}
 .arrow-size {
   height: 2rem !important;
   vertical-align: middle;
@@ -65,6 +106,31 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .number-icon {
     height: 1.5rem !important;
+}
+
+@media (min-width: 576px) {
+  a.nav-link.active, 
+  a.nav-link {
+    font-size: 17px;
+  }
+
+  .nav-link {
+    padding: 0.5rem 1rem;
+  }
+  .font-size-large {
+    font-size: 30px;
+  }
+
+  .font-size-small {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) {
+  a.nav-link.active, 
+  a.nav-link {
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 992px) {
