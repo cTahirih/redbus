@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-/*color distintivo de marca*/
-/* #e0ab04 */
+
 :root {
   --color1: #e0aa00; /*color distintivo de marca*/
   --color2: #ffd87f; /*kaki*/
@@ -106,6 +105,10 @@ a.nav-link {
 
 .number-icon {
     height: 1.5rem !important;
+}
+
+.span-color {
+  color: var(--color2);
 }
 
 @media (min-width: 576px) {
