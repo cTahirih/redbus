@@ -1,13 +1,13 @@
 import React from 'react';
 import TextParagraph from './TextParagraph';
-// import Slider from './Slider';
+import Slider from './Slider';
 
-const Section2 = () => (
-  <section>
+const SectionTwo = () => (
+  <section className="col-12">
     <TextParagraph />
-
+    <Slider/>
     <TextParagraph />
   </section>
 )
 
-export default Section2;
+export default SectionTwo;

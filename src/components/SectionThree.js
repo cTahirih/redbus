@@ -3,12 +3,12 @@ import TextParagraph from './TextParagraph';
 import TextParagraphColor  from './TextParagraphColor';
 import TextParagraphDetails  from './TextParagraphDetails';
 
-const Section3 = () => (
-  <section>
+const SectionThree = () => (
+  <section className="col-12">
     <TextParagraphColor />
     <TextParagraph />
     <TextParagraphDetails />
   </section>
 )
 
-export default Section3;
+export default SectionThree;
