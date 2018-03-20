@@ -1,12 +1,12 @@
 import React from 'react';
 import TextParagraph from './TextParagraph';
 // import TextParagraphDisplayNoneDesktop from './TextParagraphDisplayNoneDesktop';
-import Slider from './Slider';
+import SliderTab1 from './SliderTab1';
 
 const SectionTwo = () => (
   <section className="col-12 mt-2">
     <TextParagraph />
-    <Slider/>
+    <SliderTab1/>
     <TextParagraph />
   </section>
 )
