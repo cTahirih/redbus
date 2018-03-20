@@ -1,4 +1,15 @@
-/* código */
-// import PropTypes from 'prop-types';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import { Button } from 'reactstrap';
+import React from 'react';
+import Nav from './Nav';
+import Row from './Row';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../css/main.css';
+
+const Main = () => (
+  <main className="container">
+    <Row>
+      <Nav />
+    </Row>
+  </main>
+)
+
+export default Main;
