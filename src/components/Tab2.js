@@ -1,7 +1,7 @@
 import React from 'react';
 import Row from './Row';
 import SectionOne from './SectionOne';
-// import SectionTwo from './SectionTwo';
+import SectionTwoTab2 from './SectionTwoTab2';
 import SectionFor from './SectionFor';
 
 
@@ -11,7 +11,7 @@ const Tab2 = () => (
       <SectionOne />
     </Row>
     <Row>
-
+      <SectionTwoTab2 />
     </Row>
     <Row>
       <SectionFor />
@@ -20,3 +20,5 @@ const Tab2 = () => (
 )
 
 export default Tab2;
+
+//vhjxkhvjxhcvjh
