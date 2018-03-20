@@ -3,12 +3,13 @@ import TextParagraph from './TextParagraph';
 // import TextParagraphDisplayNoneDesktop from './TextParagraphDisplayNoneDesktop';
 import Slider from './Slider';
 
-const SectionTwo = () => (
+const SectionTwoEfectivo = () => (
   <section className="col-12 mt-2">
     <TextParagraph />
     <Slider/>
     <TextParagraph />
+    sskwjkdswdnjkwndekjdnjm
   </section>
 )
 
-export default SectionTwo;
+export default SectionTwoEfectivo;
