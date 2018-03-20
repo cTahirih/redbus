@@ -3,7 +3,7 @@ import TextParagraph from './TextParagraph';
 // import TextParagraphDisplayNoneDesktop from './TextParagraphDisplayNoneDesktop';
 import SliderTab1 from './SliderTab1';
 
-const SectionTwo = () => (
+const SectionTwoTab1 = () => (
   <section className="col-12 mt-2">
     <TextParagraph />
     <SliderTab1/>
@@ -11,4 +11,4 @@ const SectionTwo = () => (
   </section>
 )
 
-export default SectionTwo;
+export default SectionTwoTab1;

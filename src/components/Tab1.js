@@ -1,7 +1,7 @@
 import React from 'react';
 import Row from './Row';
 import SectionOne from './SectionOne';
-import SectionTwo from './SectionTwo';
+import SectionTwoTab1 from './SectionTwoTab1';
 import SectionThree from './SectionThree';
 
 
@@ -11,7 +11,7 @@ const Tab1 = () => (
       <SectionOne />
     </Row>
     <Row>
-      <SectionTwo />
+      <SectionTwoTab1 />
     </Row>
     <Row>
       <SectionThree />
