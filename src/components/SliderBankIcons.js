@@ -5,9 +5,9 @@ import BankItem from './BankItem';
 const SliderBankIcons = ({ bankInternet}) => (
   <div className="col-10">
     <div className="row d-flex flex-wrap">
-      {bankInternet.map(e => (
+      {/* {bankInternet.map(e => (
         <BankItem key={e.id} {...e}/>
-      ))}
+      ))} */}
     </div>
   </div>
 )
