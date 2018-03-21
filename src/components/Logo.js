@@ -10,4 +10,5 @@ const Logo = () => (
 Logo.propTypes = {
   logo: PropTypes.string
 };
+
 export default Logo;
