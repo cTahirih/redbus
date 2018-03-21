@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 
 :root {
   --color1: #e0aa00; /*color distintivo de marca*/
@@ -6,6 +8,19 @@
   --color3: #f6f4f4;  /*withesmoke*/
   --color4:#2b2b2b; /*darkslategray*/
 }
+
+.color {
+  background-color: purple;
+}
+
+.slick-prev {
+  z-index: 100;
+  left: 0px !important;
+}
+.slick-next {
+  z-index: 100;
+  right: 0px !important;
+} 
 
 .font-roboto {
   font-family: 'Roboto', sans-serif;

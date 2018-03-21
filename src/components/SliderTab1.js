@@ -1,12 +1,12 @@
 import React from 'react';
-import Row from './Row';
+import { Row } from 'react-bootstrap';
 import SliderArrowTab1 from './SliderArrowTab1';
 import SliderBankIcons from './SliderBankIcons'
 
 const SliderTab1 = ({ dataSliderInternet }) => (
-  <Row>
+  <Row className="show-grid">
     <div className="col-12">
-      <Row>
+      <Row className="show-grid">
         <SliderArrowTab1 />
         <SliderBankIcons dataIconBanks={dataSliderInternet }/>       
       </Row>

@@ -1,10 +1,10 @@
 import React from 'react';
-import Row from './Row';
+import { Row } from 'react-bootstrap';
 // import SectionOneContent from './SectionOneContent';
 
 const SectionOne = ({ }) => (
   <div className="col-12">
-    <Row>
+    <Row className="show-grid">
       <div className="columnleft col-left rounded-left d-flex align-items-center">
         <div className="col text-center">
           <span className="font-size-small">Código de pago</span>

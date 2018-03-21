@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from './Nav';
-import Row from './Row';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Row } from 'react-bootstrap';
 import '../css/main.css';
 // importar imágenes de bancos
 import BCP from '../assets/images/bcp-logo.png';
@@ -41,7 +41,7 @@ const Main = ({data}) => {
   };
   return (
     <main className="container font-roboto">
-      <Row>
+      <Row className="show-grid">
         <Nav data = {data}/>
       </Row>
     </main>
