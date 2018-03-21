@@ -5,7 +5,7 @@ import SectionTwoTab1 from './SectionTwoTab1';
 import SectionThree from './SectionThree';
 
 
-const Tab1 = () => (
+const Tab1 = ({bankInternet, bankCash}) => (
   <div className="container mt-4 rounded">
     <Row>
       <SectionOne />
