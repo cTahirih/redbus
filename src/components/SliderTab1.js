@@ -8,7 +8,7 @@ const SliderTab1 = ({ dataSliderInternet }) => (
     <div className="col-12">
       <Row>
         <SliderArrowTab1 />
-        <SliderBankIcons dataIconBanks = { dataSliderInternet }/>
+        <SliderBankIcons dataIconBanks={dataSliderInternet }/>       
       </Row>
     </div>
   </Row>
