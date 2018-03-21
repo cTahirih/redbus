@@ -1,4 +1,5 @@
 import React from 'react';
+import { Col } from 'react-bootstrap';
 import BankItem from './BankItem';
 // import BCP from '../assets/images/bcp-logo.png';
 
