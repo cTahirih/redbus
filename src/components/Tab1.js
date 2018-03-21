@@ -11,7 +11,7 @@ const Tab1 = ({bankInternet}) => (
       <SectionOne />
     </Row>
     <Row>
-      <SectionTwoTab1 bankInternet={bankInternet}/>
+      <SectionTwoTab1 sliderInternet={bankInternet}/>
     </Row>
     <Row>
       <SectionThree />
