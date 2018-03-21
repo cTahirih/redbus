@@ -5,13 +5,13 @@ import SectionTwoTab1 from './SectionTwoTab1';
 import SectionThree from './SectionThree';
 
 
-const Tab1 = ({bankInternet, bankCash}) => (
+const Tab1 = ({bankInternet}) => (
   <div className="container mt-4 rounded">
     <Row>
       <SectionOne />
     </Row>
     <Row>
-      <SectionTwoTab1 />
+      <SectionTwoTab1 sliderInternet={bankInternet}/>
     </Row>
     <Row>
       <SectionThree />
