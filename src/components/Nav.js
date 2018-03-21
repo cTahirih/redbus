@@ -8,10 +8,10 @@ const Nav = ({data}) => (
   <div className="col-12">
     <Tabs>
       <Tab label="Banca por internet">
-        <Tab1 />
+        <Tab1 bankInternet={data}/>
       </Tab>
       <Tab label="Pago en efectivo">
-        <Tab2 />
+        <Tab2 bankCash={data}/>
       </Tab>
     </Tabs>
   </div>
