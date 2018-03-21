@@ -8,7 +8,7 @@ const Nav = ({data}) => (
   <div className="col-12">
     <Tabs>
       <Tab label="Banca por internet">
-        <Tab1 bankInternet={data}/>
+        <Tab1 bankInternet={console.log(data)}/>
       </Tab>
       <Tab label="Pago en efectivo">
         <Tab2 bankCash={data}/>
