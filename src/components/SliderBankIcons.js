@@ -1,12 +1,16 @@
 import React from 'react';
-import FigureContentIconBanks from './FigureContentIconBanks';
+import BankItem from './BankItem';
+// import BCP from '../assets/images/bcp-logo.png';
 
-const SliderBankIcons = ({ dataIconBanks }) => (
+const SliderBankIcons = ({ bankInternet}) => (
   <div className="col-10">
     <div className="row d-flex flex-wrap">
-    
+      {/* {bankInternet.map(e => (
+        <BankItem key={e.id} {...e}/>
+      ))} */}
     </div>
   </div>
 )
 
-export default SliderBankIcons;
+export default SliderBankIcons
+

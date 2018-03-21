@@ -1,14 +1,14 @@
 import React from 'react';
 import Row from './Row';
 import SliderArrowTab2 from './SliderArrowTab2';
-import SliderBankIcons from './SliderBankIcons'
+import SliderBankIconsTab2 from './SliderBankIconsTab2';
 
-const SliderTab2 = ({ bankCash }) => (
+const SliderTab2 = ({ iconSliderCash }) => (
   <Row>
     <div className="col-12">
       <Row>
         <SliderArrowTab2 />
-        <SliderBankIcons dataIconBanks = { bankCash }/>
+        <SliderBankIconsTab2 dataIconCash = { iconSliderCash }/>
       </Row>
     </div>
   </Row>
