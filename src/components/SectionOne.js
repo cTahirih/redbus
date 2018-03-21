@@ -1,7 +1,8 @@
 import React from 'react';
 import Row from './Row';
+// import SectionOneContent from './SectionOneContent';
 
-const SectionOne = () => (
+const SectionOne = ({ }) => (
   <div className="col-12">
     <Row>
       <div className="columnleft col-left rounded-left d-flex align-items-center">

@@ -8,7 +8,7 @@ import SectionThree from './SectionThree';
 const Tab1 = ({ bankInternet }) => (
   <div className="container mt-4 rounded">
     <Row>
-      <SectionOne />
+      <SectionOne squareinfo={bankInternet}/>
     </Row>
     <Row>
       <SectionTwoTab1 datacopy ={bankInternet}/>
