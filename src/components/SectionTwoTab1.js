@@ -1,13 +1,14 @@
 import React from 'react';
-import TextParagraph from './TextParagraph';
+import TextParagraph1 from './TextParagraph1';
+import TextParagraph2 from './TextParagraph2';
 // import TextParagraphDisplayNoneDesktop from './TextParagraphDisplayNoneDesktop';
 import SliderTab1 from './SliderTab1';
 
 const SectionTwoTab1 = () => (
   <section className="col-12 mt-2">
-    <TextParagraph />
+    <TextParagraph1 paragraph= "Selecciona dónde quieres pagar"/>
     <SliderTab1/>
-    <TextParagraph />
+    <TextParagraph2 paragraph2="Puedes pagar desde la Web o App móvil del Banco"/>
   </section>
 )
 
