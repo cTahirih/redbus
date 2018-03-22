@@ -30,3 +30,6 @@ const SimpleSlider = () => {
 
 
 export default SimpleSlider;
+
+// import ControlledCarousel from './components/carousel'
+// <ControlledCarousel />
