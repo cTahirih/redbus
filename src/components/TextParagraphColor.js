@@ -1,6 +1,6 @@
 import React from 'react';
 
 const TextParagraphColor = () => (
-  <p className="colorp-main">Texto párrafo en color</p>
+  <p className="colorp-main">Instrucciones de Pago</p>
 )
 export default TextParagraphColor;
