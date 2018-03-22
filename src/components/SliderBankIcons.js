@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Col } from 'react-bootstrap';
 // import BankItem from './BankItem';
 import Slider from 'react-slick';
 // import BCP from '../assets/images/bcp-logo.png';
@@ -9,21 +8,22 @@ const SliderBankIcons = ({ dataIconBanks}) => {
     dots: false,
     infinite: false,
     speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 1
+    slidesToShow: 3,
+    slidesToScroll: 3
   };
   return (
-    <div className="col-10">
-      <div className="row d-flex flex-wrap">
-        {dataIconBanks.datacopy.banksInternet.map(el => (
-          <Slider key={el.id}
-            {...el}  {...settings}>
-            <div className="m-1">
-              <img src={el.url} alt={el.id} className="p-1 img-fluid bank-logo-size"></img>
-              <figcaption className="text-center">{el.id}</figcaption>
-            </div>
+    <div className="container">
+      <div className="row">
+        <div className="col-12">
+          <Slider {...settings} className="col">
+            {dataIconBanks.datacopy.banksInternet.map(ele => (
+              <figure className="col" key={ele.id} {...ele}>
+                <img src={ele.url} alt={ele.id} className="p-1 img-fluid bank-logo-size" />
+                <figcaption className="text-center">{ele.info}</figcaption>
+              </figure>
+            ))}
           </Slider>
-        ))}
+        </div>
       </div>
     </div>
   )
