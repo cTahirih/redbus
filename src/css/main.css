@@ -21,10 +21,10 @@
   z-index: 100;
   right: 0px !important;
 } 
-
-.slick-next, .slick-prev {
+button.slick-arrow.slick-next,
+button.slick-arrow.slick-prev {
   color: var(--color1);
-  background: var(--color2);
+  background: black;
 }
 
 .font-roboto {
@@ -166,3 +166,9 @@ a.nav-link {
     height: 3.5rem !important;
   }
 }
+
+/* @media (max-width: 576px) {
+  .slick-track {
+    width: 100%!important;
+  }
+} */

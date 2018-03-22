@@ -15,11 +15,11 @@ const SliderBankIconsTab2 = ({ dataIconCash }) => {
     <div className="container">
       <div className="row">
         <div className="col-12">
-          <Slider {...settings} >
+          <Slider {...settings} className="col">
             {dataIconCash.banksCash.map(elemt => (
               <div className="col" key={elemt.id} {...elemt}>
                 <img src={elemt.url} alt={elemt.id} className="p-1 img-fluid bank-logo-size" />
-                <span className="text-center">{elemt.info}</span>
+                {/* <span className="text-center">{elemt.info}</span> */}
               </div>
             ))}
           </Slider>
