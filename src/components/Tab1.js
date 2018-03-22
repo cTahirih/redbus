@@ -8,10 +8,10 @@ import SectionThree from './SectionThree';
 const Tab1 = ({ bankInternet }) => (
   <div className="container mt-4 rounded">
     <Row className="show-grid">
-      <SectionOne squareinfo={bankInternet}/>
+      <SectionOne squareinfo={bankInternet} />
     </Row>
     <Row className="show-grid">
-      <SectionTwoTab1 datacopy ={bankInternet}/>
+      <SectionTwoTab1 datacopy={bankInternet} />
     </Row>
     <Row className="show-grid">
       <SectionThree />

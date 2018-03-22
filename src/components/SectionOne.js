@@ -2,7 +2,7 @@ import React from 'react';
 import { Row } from 'react-bootstrap';
 // import SectionOneContent from './SectionOneContent';
 
-const SectionOne = ({ }) => (
+const SectionOne = () => (
   <div className="col-12">
     <Row className="show-grid">
       <div className="columnleft col-left rounded-left d-flex align-items-center">

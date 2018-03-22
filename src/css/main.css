@@ -9,10 +9,6 @@
   --color4:#2b2b2b; /*darkslategray*/
 }
 
-.color {
-  background-color: purple;
-}
-/* fffffffffffff */
 .slick-prev {
   z-index: 100;
   left: 0px !important;
@@ -129,7 +125,7 @@ a.nav-link {
 }
 
 .number-icon {
-    height: 1.5rem !important;
+  height: 1.5rem !important;
 }
 
 .span-color {
